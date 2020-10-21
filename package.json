@@ -43,9 +43,6 @@
     "type": "git",
     "url": "https://github.com/dynamite-jobs/namecase.git"
   },
-  "bin": {
-    "build": "./index.ts"
-  },
   "bugs": {
     "url": "https://github.com/dynamite-jobs/namecase/issues"
   },
