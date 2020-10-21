@@ -1,6 +1,6 @@
 {
   "name": "@dynamite-jobs/namecase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully typed library for fixing capitalization of people's names. Based on tamtamchik PHP library.",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -36,11 +36,15 @@
     "postversion": "git push && git push --tags"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dynamite-jobs/namecase.git"
+  },
+  "bin": {
+    "build": "./index.ts"
   },
   "bugs": {
     "url": "https://github.com/dynamite-jobs/namecase/issues"
